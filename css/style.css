@@ -1,0 +1,62 @@
+*{
+    color: cornflowerblue;
+    font-family: Raleway-Regular;
+}
+.social{
+    margin: 8px 0 8px 0;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 5px;
+}
+.menu{
+    border-style: dotted;
+    list-style-type: square;
+    background-color: papayawhip;
+    padding: 8px;
+    font-size: 20px;
+}
+.menu li{
+    display: inline;
+    text-decoration: underline;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    margin: 12px 0 12px 0;
+}
+body{
+    /*background-color: lightsalmon;*/
+    background-image: url("../image/tapeta.jpg");
+}
+a{
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 22px;
+}
+a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+#page {
+    width: 450px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+#page div:first-of-type{
+    font-style: italic;
+}
+@font-face{
+    font-family: Raleway-Regular;
+    src: url("../font/Raleway-Regular.ttf");
+}
+@media(max-width: 576px){
+    #page{
+        width: 100%;
+    }
+    #page img {
+        width: 100%;
+    }
+}
